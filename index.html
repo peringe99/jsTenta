@@ -3,9 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Lånekalkylator</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="sumSlideContainer">
+        <input type="range" min="0" max="500000" value="250000" class="sumSlider" id="sumSlider" step="10000">
+        <p>Summa: <span id="summa"></span></p>
+      </div>
+      <div class="yearSlideContainer">
+        <input type="range" min="1" max="5" value="3" class="yearSlider" id="yearSlider" step="1">
+        <p>År: <span id="year"></span></p>
+      </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
