@@ -9,12 +9,25 @@
 <body>
     <div class="sumSlideContainer">
         <input type="range" min="0" max="500000" value="250000" class="sumSlider" id="sumSlider" step="10000">
-        <p>Summa: <span id="summa"></span></p>
+        <!-- <p>Summa: <span id="summa"></span></p> -->
+        <label for="sum">Summa:</label>
+        <input type="number" id="sum" min="0" max="500000" step="10000" value="">
       </div>
       <div class="yearSlideContainer">
         <input type="range" min="1" max="5" value="3" class="yearSlider" id="yearSlider" step="1">
-        <p>År: <span id="year"></span></p>
+        <!-- <p>År: <span id="year"></span></p> -->
+        <label for="yearForm">År:</label>
+        <input type="number" id="yearForm" min="1" max="5" step="1" value="0">
       </div>
+      <p>Årsränta: 5,4%</p>
+
+      <div class="dinaKostnader" id="kostnader">
+          <h1>Dina Kostnader</h1>
+          <p>Kostnad per månad: <span id="monthlyCost"></span></p>
+          <p>Total kostnad (amortering + ränta): <span id="totalCost"></span></p>
+      </div>
+      
+      
 
     <script src="script.js"></script>
 </body>
