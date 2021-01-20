@@ -4,8 +4,11 @@ body{
 
 .dinaKostnader{
     border-style: solid;
-    background-color: rgb(71, 167, 247);
+    border-color: black;
+    background-color: #0075ff;
     padding-left: 20px;
     padding-bottom: 20px;
     width: 500px;
+    color: white;
 }
+
